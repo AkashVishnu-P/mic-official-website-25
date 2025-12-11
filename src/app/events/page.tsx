@@ -357,14 +357,14 @@ const LandingPage = () => {
                 alignItems: "flex-start",
                 justifyContent: "flex-start",
                 fontWeight: "bold",
-                padding: "5px",
+                padding: "25px",
                 position: "relative",
                 boxSizing: "border-box",
                 border: `14px solid ${event.borderColor}`,
               }}
               onClick={() => setOpenCard(i)}
             >
-              <span style={{ fontSize: "min(1.4vw, 20px)" }}>{event.title}</span>
+              <span style={{ fontSize: "min(1.25vw, 17px)" }}>{event.title}</span>
               <p
                 className="info-text font-normal mt-4"
                 style={{
@@ -443,7 +443,7 @@ const LandingPage = () => {
               }}
               onClick={() => setOpenCard(i + 3)}
             >
-              <span style={{ fontSize: "min(1.2vw, 24px)" }}>{event.title}</span>
+              <span style={{ fontSize: "min(1.25vw, 17px)" }}>{event.title}</span>
               <p
                 className="info-text font-normal mt-4"
                 style={{
