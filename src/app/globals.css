@@ -59,6 +59,9 @@ body {
     );
     border-radius: 50%;
   }
+  .navbar-darker {
+    filter: brightness(0.7) contrast(1.1);
+  }
 }
 
 /* Pixelated corners for event boxes */

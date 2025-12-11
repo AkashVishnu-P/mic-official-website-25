@@ -54,7 +54,7 @@
                 alt="Navbar Background"
                 width={220}
                 height={220}
-                className="absolute inset-0 object-cover"
+                className="absolute inset-0 object-cover navbar-darker"
             />
             
             {/* Close button */}
@@ -78,18 +78,18 @@
                 <a
                     key={item.id}
                     href={item.href}
-                    className="flex items-center py-2 px-2 text-black text-xs hover:bg-white/20 rounded-lg transition-all duration-200 group cursor-pointer"
+                    className="flex items-center py-2 px-2 text-white text-xs transition-all duration-200 ease-out group cursor-pointer"
                 >
                     <Image
                     src={`/cube/${item.id}.svg`}
                         alt={`${item.name} Cube`}
                         width={24}
                         height={24}
-                        className="mr-2 transition-transform duration-300 "
+                        className="mr-2"
                         style={{ filter: `drop-shadow(0 0 5px ${item.color})` }}
                     />
                     <span 
-                    className="select-none"
+                    className="select-none flex-1 py-1 px-3 border-2 border-transparent transition-all duration-200 ease-out group-hover:border-[#1a4a6a] group-hover:bg-[#0a2a3a]/40 group-hover:shadow-[3px_3px_0px_0px_rgba(0,30,50,0.6)] group-hover:-translate-x-1"
                     >
                     {item.name}
                     </span>
