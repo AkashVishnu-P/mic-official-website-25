@@ -78,7 +78,7 @@
                 <a
                     key={item.id}
                     href={item.href}
-                    className="flex items-center py-2 px-2 text-black text-xs hover:bg-white/20 rounded-lg transition-all duration-200 group cursor-pointer"
+                    className="flex items-center py-2 px-2 text-black text-xs hover:bg-black/20 rounded-lg transition-all duration-200 group cursor-pointer border border-transparent hover:border-black border-radius "
                 >
                     <Image
                     src={`/cube/${item.id}.svg`}
