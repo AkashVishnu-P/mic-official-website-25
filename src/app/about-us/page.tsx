@@ -85,8 +85,12 @@ const MysteryCard = ({
         width: 320px;
         height: 290px;
         border: 10px solid;
+<<<<<<< Updated upstream
         il: 0;
  staging
+=======
+        border-radius: 5px;
+>>>>>>> Stashed changes
         position: relative;
         display: flex;
         flex-direction: column;
@@ -100,6 +104,7 @@ const MysteryCard = ({
       }
       .inner-panel {
         position: absolute;
+<<<<<<< Updated upstream
  issue-10-Improve-Scroll-Indication-and-Box-Sizing-on-About-Us-Page
         left: 8px; top: 8px; right: 8px; bottom: 8px;
         border-radius: 4px;
@@ -123,6 +128,21 @@ const MysteryCard = ({
       .top-right { top: 20px; right: 20px;}
       .bottom-left { bottom: 20px; left: 20px;}
       .bottom-right { bottom: 20px; right: 20px;}
+=======
+        left: 5px; top: 5px; right: 5px; bottom: 5px;
+        border-radius: 5px;
+        z-index: 8;
+      }
+      .corner-dot {
+        width: 12px; height: 12px; border-radius: 50%;
+        position: absolute; z-index: 40;
+        background: var(--dot-color, #000);
+      }
+      .top-left { top: 8px; left: 8px;}
+      .top-right { top: 8px; right: 8px;}
+      .bottom-left { bottom: 8px; left: 8px;}
+      .bottom-right { bottom: 8px; right: 8px;}
+>>>>>>> Stashed changes
       .fixed-title {
         position: absolute; top: 22px; left: 0; right: 0;
         text-align: center; z-index: 25; pointer-events: none;
